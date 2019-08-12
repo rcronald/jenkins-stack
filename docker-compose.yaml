@@ -3,7 +3,7 @@ version: '3'
 services:
   jenkins:
     build: .
-    image: rcronald/jenkins-stack:2.175-jdk11
+    image: rcronald/jenkins-stack:2.187-jdk11
     ports:
       - "8080:8080"
     volumes:
